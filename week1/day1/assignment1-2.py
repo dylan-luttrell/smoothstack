@@ -17,7 +17,7 @@ print("Hello World : 10")
 
 
 ##################################################################
-# morgage calculator
+# morgage calculator``
 def calc_morgage(P: int, R: int, L:int) -> int:
     monthly_rate = R / 1200
     x = (1 + monthly_rate) ** L
