@@ -15,7 +15,7 @@ def total_price(data: List[List[Any]]) -> List[Tuple[int, int]]:
     
     orders = (line[0] for line in data)
     
-    if isinstance(data[1][1], tuple):
+    if isinstance(data[0][1], tuple):
         price_data = (line[1][1:] for line in data)
     else:
         price_data = (line[2:] for line in data)
